@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Advanced Task Manager</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<main class="app">
+
+    <h1 class="main-heading">Task Manager</h1>
+
+    <!-- Search -->
+    <input type="text" id="searchInput" class="search-bar" placeholder="Search tasks...">
+    <p id="noResultMessage" class="no-result"></p>
+
+    <!-- Add Task Section -->
+    <div class="input-section">
+        <input type="text" id="titleInput" placeholder="Task Title">
+        <input type="text" id="descInput" placeholder="Task Description">
+        <input type="date" id="dateInput">
+        <button id="addBtn">Add</button>
+    </div>
+
+    <ul id="taskList"></ul>
+
+</main>
+
+<script src="script.js"></script>
+</body>
+</html>
